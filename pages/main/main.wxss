@@ -1,0 +1,39 @@
+/* pages/main/main.wxss */
+.container{/*类选择器*/
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;/*布局方向*/
+  align-items: center;
+  justify-content: space-around
+}
+
+
+
+.detail{
+  background-color: "#3883FA";
+  width: 100%;
+  display: flex;
+  flex-direction: column 
+}
+.items{
+  display: flex;
+  margin: 10rpx;
+  flex-direction: row
+}
+.values{
+  display: flex;
+  color: blue;
+  flex-direction: row
+}
+.box{
+  width: 33.3%;
+  text-align: center
+}
+
+image{
+  width: 300rpx
+}
+
+text{
+  font-size: 10px
+}
