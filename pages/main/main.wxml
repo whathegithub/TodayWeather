@@ -4,7 +4,7 @@
 <picker mode="region" bindchange="changeRegion">
   <view>{{region}}</view>
 </picker>
-<image src="/images/999.png"></image>
+<image src="/images/{{icon}}.png"></image>
 
 
 <!-- 详情展示区 -->
@@ -17,9 +17,9 @@
  </view>
 
   <view class="values">
-  <view class="box">0%</view>
-  <view class="box">0hPa</view>
-  <view class="box">0Km</view>
+  <view class="box">{{temp}}°</view>
+  <view class="box">{{pa}}hPa</view>
+  <view class="box">{{see}}Km</view>
  </view>
 
  <view class="items">
@@ -29,9 +29,9 @@
  </view>
 
   <view class="values">
-  <view class="box">0</view>
-  <view class="box">0Km/h</view>
-  <view class="box">0级</view>
+  <view class="box">{{wind_direction}}</view>
+  <view class="box">{{wind_speed}}Km/h</view>
+  <view class="box">{{wind_power}}级</view>
  </view>
 
 </view>
